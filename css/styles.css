@@ -4,6 +4,7 @@ body {
  display: flex;
  flex-direction: column;
  max-width: 1440px;
+ max-height: auto;
  margin: 0;
  font-family: Roboto, sans-serif;
 }
@@ -123,7 +124,6 @@ body {
  align-items: center;
  justify-content: center;
  background-color: #E5E7EB;
- gap: 10px;
 }
 
 .quote {
@@ -143,4 +143,47 @@ body {
  font-size: 25px;
  color: #1F2937;
  font-weight: 700;
+}
+
+.fourth-container {
+ display: flex;
+ color: white;
+ height: 450px;
+ width: 1440px;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.sign-up-container {
+ display: flex;
+ background-color: #3882F6;
+ width: 900px;
+ height: 150px;
+ border-radius: 10px;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0px 150px;
+}
+
+.call-to-action {
+ font-size: 26px;
+ font-weight: 700;
+}
+
+.click-that-button {
+ font-size: 18px;
+ color: #E5E7EB;
+}
+
+.sign-up-button-bottom {
+ background-color: #3882F6;
+ border-radius: 8px;
+ border: 2px solid white;
+ width: 140px;
+ height: 40px;
+ text-align: center;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
 }
