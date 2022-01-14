@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
 
 body {
  display: flex;
  flex-direction: column;
  max-width: 1440px;
- height: 1910px;
  margin: 0;
  font-family: Roboto, sans-serif;
- flex: 1;
 }
 
 .header {
@@ -17,16 +15,15 @@ body {
  align-items: center;
  background-color: #1F2937;
  height: 60px;
- width: 1440px;
+ width: 1240px;
  padding: 0px 100px;
- flex: 0 0 auto;
 }
 
 .title {
  display: flex;
  font-size: 24px;
  color: #F9FAF8;
- font-weight: 850;
+ font-weight: 700;
 }
 
 .header-link {
@@ -41,13 +38,11 @@ body {
  display: flex;
  flex-direction: row;
  align-items: center;
- justify-content: space-between;
- height: 650px;
- width: 1440px;
+ height: 500px;
+ width: 1240px;
  background-color: #1F2937;
  padding: 0px 100px;
  gap: 50px;
- flex: 0 0 auto;
 }
 
 .top-text {
@@ -58,22 +53,15 @@ body {
 }
 
 .hero-text {
- display: flex;
  font-size: 48px;
  font-weight: 1000;
  color: #F9FAF8;
 }
 
 .hero-subtext {
- display: flex;
  font-size: 18px;
  color: #E5E7EB;
  max-width: 100%;
-}
-
-img {
- width: auto;
- height: auto;
 }
 
 .top-sign-up {
@@ -91,11 +79,11 @@ img {
 .second-container {
  display: flex;
  flex-direction: column;
- height: 650px;
+ height: 450px;
  width: 1440px;
  align-items: center;
  gap: 50px;
- margin: 50px;
+ padding-top: 50px;
 }
 
 .image-gallery-title {
@@ -121,10 +109,38 @@ img {
 }
 
 .image-gallery {
- display: flex;
- flex-direction: column;
  text-align: center;
  align-items: center;
  width: 180px;
  color: #1F2937;
+}
+
+.third-container {
+ display: flex;
+ flex-direction: column;
+ height: 450px;
+ width: 1440px;
+ align-items: center;
+ justify-content: center;
+ background-color: #E5E7EB;
+ gap: 10px;
+}
+
+.quote {
+ width: 850px;
+ color: #1F2937;
+ font-size: 36px;
+ font-weight: 300;
+}
+
+.quote-author {
+ display: flex;
+ width: 750px;
+ justify-content: flex-end;
+}
+
+.quote-author-text {
+ font-size: 25px;
+ color: #1F2937;
+ font-weight: 700;
 }
