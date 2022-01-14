@@ -148,7 +148,7 @@ body {
 .fourth-container {
  display: flex;
  color: white;
- height: 450px;
+ height: 350px;
  width: 1440px;
  flex-direction: column;
  align-items: center;
@@ -185,5 +185,16 @@ body {
  text-align: center;
  color: white;
  font-weight: bold;
+ font-size: 18px;
+}
+
+.footer {
+ display: flex;
+ background-color: #1F2937;
+ height: 100px;
+ width: 1440px;
+ align-items: center;
+ justify-content: center;
+ color: lightgrey;
  font-size: 18px;
 }
